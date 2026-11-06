@@ -121,9 +121,16 @@ Verified commands, real local API responses, and browser observations are record
 
 ## Production and Render
 
-Verified public deployment: https://cse4095-hangman-web-game.onrender.com
+Live portfolio route: https://armaanare.com/hangman/
 
-Source repository: https://github.com/armaan-are/cse4095-hangman-web-game
+Verified Flask deployment: https://cse4095-hangman-web-game.onrender.com
+
+Canonical source repository: https://github.com/armaan-are/4095-Hangman
+
+The portfolio route embeds the verified Render deployment so the Flask API and
+server-authoritative game engine remain the only source of gameplay state. The
+historical assignment evidence in `docs/` and `submission/` retains the original
+course-repository URL that was verified when that evidence was recorded.
 
 `render.yaml` defines a Python Web Service with:
 
